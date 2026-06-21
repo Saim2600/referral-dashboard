@@ -20,18 +20,18 @@ Password: admin123
 ## Structure
 
 src/
-├── App.jsx                        # BrowserRouter + all routes
-├── main.jsx                       # Entry — renders <App /> only
-├── index.css                      # CSS variables + resets
-├── App.css                        # Shared layout helpers
+├── App.jsx                        
+├── main.jsx                       
+├── index.css                      
+├── App.css                        
 ├── components/
-│   ├── Navbar/                    # Sticky top nav with logout
-│   └── ProtectedRoute/            # JWT cookie guard
+│   ├── Navbar/                    
+│   └── ProtectedRoute/            
 ├── pages/
-│   ├── Login/                     # Auth page
-│   ├── Dashboard/                 # Main dashboard (all sections)
-│   ├── ReferralDetails/           # Single referral view
-│   └── NotFound/                  # 404
+│   ├── Login/                     
+│   ├── Dashboard/                 
+│   ├── ReferralDetails/           
+│   └── NotFound/                  
 └── utils/
-    └── constants.js               # API URLs, cookie name, page size
+    └── constants.js               
 
