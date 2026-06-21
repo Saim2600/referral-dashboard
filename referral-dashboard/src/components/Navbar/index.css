@@ -1,0 +1,56 @@
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar__inner {
+  max-width: 980px;
+  margin: 0 auto;
+  height: 64px;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__brand {
+  color: #6366f1;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar__trial {
+  border: none;
+  background-color: #6366f1;
+  color: white;
+
+  padding: 8px 16px;
+  border-radius: 20px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.navbar__logout {
+  border: 1px solid #ef4444;
+  background-color: transparent;
+  color: #ef4444;
+
+  padding: 8px 16px;
+  border-radius: 20px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
