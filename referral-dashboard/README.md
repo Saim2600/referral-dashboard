@@ -60,26 +60,57 @@ Tech Stack
 
 Project Structure
 
-src
+referral-dashboard/
 │
-├── assets
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
 │
-├── components
-│   ├── Navbar
-│   └── ProtectedRoute
+├── src/
+│   │
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Navbar/
+│   │   │   ├── index.jsx
+│   │   │   └── index.css
+│   │   │
+│   │   └── ProtectedRoute/
+│   │       └── index.jsx
+│   │
+│   ├── pages/
+│   │   ├── Login/
+│   │   │   ├── index.jsx
+│   │   │   └── index.css
+│   │   │
+│   │   ├── Dashboard/
+│   │   │   ├── index.jsx
+│   │   │   └── index.css
+│   │   │
+│   │   ├── ReferralDetails/
+│   │   │   ├── index.jsx
+│   │   │   └── index.css
+│   │   │
+│   │   └── NotFound/
+│   │       ├── index.jsx
+│   │       └── index.css
+│   │
+│   ├── utils/
+│   │   └── constants.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
 │
-├── pages
-│   ├── Login
-│   ├── Dashboard
-│   ├── ReferralDetails
-│   └── NotFound
-│
-├── utils
-│   └── constants.js
-│
-├── App.jsx
-├── main.jsx
-└── index.css
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
+├── index.html
+├── README.md
+└── screenshot.png (optional)
 
 Installation
 
