@@ -63,54 +63,22 @@ Project Structure
 referral-dashboard/
 │
 ├── public/
-│   ├── favicon.svg
-│   └── icons.svg
 │
 ├── src/
-│   │
 │   ├── assets/
-│   │
 │   ├── components/
-│   │   ├── Navbar/
-│   │   │   ├── index.jsx
-│   │   │   └── index.css
-│   │   │
-│   │   └── ProtectedRoute/
-│   │       └── index.jsx
-│   │
 │   ├── pages/
-│   │   ├── Login/
-│   │   │   ├── index.jsx
-│   │   │   └── index.css
-│   │   │
-│   │   ├── Dashboard/
-│   │   │   ├── index.jsx
-│   │   │   └── index.css
-│   │   │
-│   │   ├── ReferralDetails/
-│   │   │   ├── index.jsx
-│   │   │   └── index.css
-│   │   │
-│   │   └── NotFound/
-│   │       ├── index.jsx
-│   │       └── index.css
-│   │
+│   ├── services/
 │   ├── utils/
-│   │   └── constants.js
-│   │
+│   ├── hooks/
+│   ├── routes/
 │   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── index.css
+│   └── main.jsx
 │
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── vite.config.js
-├── eslint.config.js
-├── index.html
 ├── README.md
-└── screenshot.png (optional)
+├── package.json
+├── vite.config.js
+└── .gitignore
 
 Installation
 
