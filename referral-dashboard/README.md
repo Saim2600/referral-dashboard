@@ -58,28 +58,6 @@ Tech Stack
 * Fetch API
 * js-cookie
 
-Project Structure
-
-referral-dashboard/
-│
-├── public/
-│
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── utils/
-│   ├── hooks/
-│   ├── routes/
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── README.md
-├── package.json
-├── vite.config.js
-└── .gitignore
-
 Installation
 
 Clone the repository:
